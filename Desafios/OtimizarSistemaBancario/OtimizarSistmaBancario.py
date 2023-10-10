@@ -128,7 +128,6 @@ def criar_conta(agencia, numero_conta, usuarios):
     os.system("cls")
 
 
-
 def listar_contas(contas):
     for conta in contas:
         linha = f"""\
@@ -191,7 +190,7 @@ def main():
             break
 
         else:
-            print("Operação inválida, por favor selecione novamente a operação desejada.")
+            print("Operação inválida, tente novamente!")
 
 
 main()
