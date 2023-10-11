@@ -4,12 +4,15 @@ class Conta:
         self.nro_agencia = nro_agencia
 
     def depositar(self, valor):
+        # ...
         self._saldo += valor
 
     def sacar(self, valor):
+        # ...
         self._saldo -= valor
 
     def mostrar_saldo(self):
+        # ...
         return self._saldo
 
 
