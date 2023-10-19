@@ -34,4 +34,4 @@ class Adress(Base):
         return f"Address (id={self.id}, email={self.email_address})"
 
 print(User.__tablename__)
-print(User.__table__)
+print(Adress.__table__)
