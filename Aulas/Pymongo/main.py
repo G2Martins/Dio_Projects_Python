@@ -54,3 +54,31 @@ print("\n")
 # 2 (de forma Indentada)
 pprint.pprint(db.posts.find_one())
 
+# Bulk Inserts
+new_posts = [
+    {
+        "author": "Luisa",
+        "text": "Another post",
+        "tags": ["bulk", "post", "insert"],
+        "date": datetime.datetime.utcnow()
+    },
+    {
+        "author": "Joao",
+        "text": "Post from Joao. New post available",
+        "title": "Mongo is fun",
+        "date": datetime.datetime.utcnow() # Or date.datetime(2009, 11, 10, 10, 45) Caso esteja recuperando uma informação passada
+    }]
+result = posts.insert_many(new_posts)
+print("\n")
+print(result.inserted_ids)
+
+print("\nRecuperacao final")
+pprint.pprint(db.posts.find_one())
+
+
+print("\nRecuperacao final por algum parâmetro")
+pprint.pprint(db.posts.find_one({"author": "Luisa"}))
+
+print("\n Documentos Presentes na Coleção Posts")
+for post in posts.find():
+    pprint.pprint(post)
