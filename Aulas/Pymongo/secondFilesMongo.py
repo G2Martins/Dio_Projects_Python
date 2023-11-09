@@ -70,4 +70,7 @@ print(posts.delete_one({"author": "Joao"}))
 # Drop apaga todos os documentos de uma collection
 # print(db.profile_user.drop())
 
+# Deletar o Banco de dados
+# client.drop_database('test')
+
 
