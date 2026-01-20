@@ -25,7 +25,7 @@ Além de outros projetos pessoais ou de outros cursos
 | POO - Classes abstratas | [13_ClassesAbstrata](https://github.com/G2Martins/Dio_Projects_Python/tree/main/Aulas/POO/08%20-%20Classes%20abstratas) |
 | Pymongo | [14_Pymongo](https://github.com/G2Martins/Dio_Projects_Python/tree/main/Aulas/Pymongo) |
 | SQL Alchemy | [15_SQLAlchemy](https://github.com/G2Martins/Dio_Projects_Python/tree/main/Aulas/SQLAlchemy) |
-| Datetime | [02_Tuplas](https://github.com/G2Martins/Dio_Projects_Python/tree/main/Aulas/DateTime) |
+| Datetime | [16_Tuplas](https://github.com/G2Martins/Dio_Projects_Python/tree/main/Aulas/DateTime) |
 
 
 
