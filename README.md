@@ -6,6 +6,7 @@ Além de outros projetos pessoais ou de outros cursos
 
 ## 📚 Documentação
 - [Repositorio Curso](https://github.com/digitalinnovationone/trilha-python-dio/tree/main)
+- [Repositorio Curso Power BI](https://github.com/julianazanelatto/power_bi_analyst)
 
 ## 💻 Resumos das Aulas
 
