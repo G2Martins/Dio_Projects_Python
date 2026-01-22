@@ -13,7 +13,7 @@ setup(
     description="Processamento imagem usando Skimage",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/gustavomartins/dio-desafio-pacote-processamento-imagem",
+    url="https://github.com/G2Martins/Dio_Projects_Python/tree/main/Projetos/Pacote%20de%20Processamento%20de%20Imagens",
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.5'
